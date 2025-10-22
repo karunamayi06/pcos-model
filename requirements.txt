@@ -2,10 +2,11 @@ streamlit
 torch
 transformers
 safetensors
-Pillow
 langchain
 langchain-community
 langchain-groq
-sentence-transformers
-faiss-cpu
 huggingface-hub
+faiss-cpu
+sentence-transformers
+Pillow
+

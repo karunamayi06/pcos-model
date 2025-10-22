@@ -1,12 +1,10 @@
 streamlit
-streamlit-chat
 torch
 transformers
 safetensors
 langchain
 langchain-community
 langchain-core
-langchain-text-splitters
 langchain-groq
 huggingface-hub
 faiss-cpu

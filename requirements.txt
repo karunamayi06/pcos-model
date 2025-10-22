@@ -2,10 +2,11 @@ streamlit
 torch
 transformers
 safetensors
-langchain
-langchain-community
-langchain-core
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-core==0.3.7
 langchain-groq
+langchain-text-splitters==0.3.2
 huggingface-hub
 faiss-cpu
 sentence-transformers

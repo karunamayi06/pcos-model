@@ -6,11 +6,12 @@ from safetensors.torch import load_file
 import os
 from langchain_community.vectorstores import FAISS
 from langchain_community.document_loaders import TextLoader
-from langchain_community.text_splitter import RecursiveCharacterTextSplitter
+from langchain.text_splitter import RecursiveCharacterTextSplitter   # ✅ Fixed import
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
+
 
 # ---------------------------------------------------------
 # STREAMLIT SETUP
@@ -181,4 +182,5 @@ with tab1:
 
 with tab2:
     pcos_chatbot()
+
 
